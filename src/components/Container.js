@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 class Container extends Component {
   render() {
-    const {size, color, children} = this.props
+    const {size, color, children, style} = this.props
     return (
-      <div style={{flex: size, backgroundColor: color}}>
+      <div style={{...style, flex: size, backgroundColor: color}}>
         {children}
       </div>
     );
