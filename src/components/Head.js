@@ -7,7 +7,7 @@ class Head extends Component {
     return (
       <Container  size= {0.3} color="black">
         <img src={logo} className="App-logo" alt="logo" />
-        <p style={{color: 'white'}}>happy hacking</p>
+        <p style={{color: 'white', fontSize: 21}}>happy hacking</p>
       </Container>
     );
   }
